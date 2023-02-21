@@ -167,12 +167,11 @@ main {
   right: 10px;
 }
 
-
 /*Products display*/
 .product-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 40px;
+  grid-template-columns: auto auto auto;
+  grid-gap: 30px;
   margin: 50px;
 }
 
@@ -188,7 +187,7 @@ main {
 }
 
 .product img {
-  width: 50%;
+  width: 400px;
   height: 500px;
   object-fit: cover;
 }
